@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Result</h1>
+  <p><%= @result %></p>
+  <p>Your score: <%= @part_score %></p>
+  <p>Your total score: <%= session[:score] %></p>
+
+  <%= link_to "Give it another try!", "/new" %>
+</div>
